@@ -17,3 +17,8 @@ html {
   box-sizing: inherit;
 }
 
+<form>
+    <label for="to-do">To-Do</label>
+    <input id="to-do">
+    <button type="submit">Add</button>
+  </form>
