@@ -26,8 +26,11 @@ form {
 .input {
   padding: 1em 2em;
   margin: auto;
-  border: solid 2px lightgrey;
-/*  border-radius: 20px;*/
+  border-top: solid 2px lightgrey;
+  border-left: solid 2px lightgrey;
+  border-right: solid 2px lightgrey;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
   background-color: rgb(242, 242, 242);
   width: 20em;
   text-align: center;
