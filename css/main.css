@@ -60,7 +60,11 @@ form {
 
 .list-holder{
   width: 20em;
-  border: solid 2px lightgrey;
+  border-bottom: solid 2px lightgrey;
+  border-left: solid 2px lightgrey;
+  border-right: solid 2px lightgrey;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
   padding: 1.5em 2em;
   overflow: hidden;
   margin: auto;
