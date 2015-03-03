@@ -19,14 +19,15 @@ html {
 }
 
 form {
-  display: block;
+  display: inline-block;
 }
 
-.box {
+
+.input {
   padding: 1em 2em;
   margin: auto;
   border: solid 2px lightgrey;
-  border-radius: 20px;
+/*  border-radius: 20px;*/
   background-color: rgb(242, 242, 242);
   width: 20em;
   text-align: center;
@@ -38,10 +39,9 @@ form {
   display: block;
 }
 
-.input {
+.main-input {
   float: left;
-  padding: .5em;
-  width: 15em;
+  width: 75%;
   margin: 0;
 }
 
@@ -49,19 +49,28 @@ form {
   float: right;
   text-align: center;
   margin: 0;
-  width: 5em;
-  padding: .5em;
+  width: 25%;
   border: none;
   border-radius: 1px;
   background-color: rgb(209, 209, 209);
 }
 
-.list {
-  padding: 1.5em 2em;
-  margin: auto;
-  border-radius: solid 2px lightgrey;
-  background-color: white;
-  overflow: hidden;
+.list-holder{
   width: 20em;
+  border: solid 2px lightgrey;
+  padding: 1.5em 2em;
+  overflow: hidden;
+  margin: auto;
+  background-color: white;  
 }
 
+.delete{
+  float: right;
+}
+
+.list{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
