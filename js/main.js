@@ -16,7 +16,7 @@ $form.on('submit', function (e) {
     });
 
    $list.on('click', 'li', function () {
-        $(is).addClass('complete');
+        $(thisis).addClass('complete');
     });
 
     $li.append($nameDl);
