@@ -26,15 +26,16 @@ form {
 .input {
   padding: 1em 2em;
   margin: auto;
-  border-top: solid 2px lightgrey;
-  border-left: solid 2px lightgrey;
-  border-right: solid 2px lightgrey;
+  border-top: solid 2px #1890ec;
+  border-left: solid 2px #1890ec;
+  border-right: solid 2px #1890ec;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
-  background-color: rgb(242, 242, 242);
+  background-color: #6dbfed;
   width: 20em;
   text-align: center;
   overflow: hidden;
+  color: white;
 }
 
 .title {
@@ -55,14 +56,16 @@ form {
   width: 25%;
   border: none;
   border-radius: 1px;
-  background-color: rgb(209, 209, 209);
+  background-color: #1890ec;
+  text-align: center;
+  color: white;
 }
 
 .list-holder{
   width: 20em;
-  border-bottom: solid 2px lightgrey;
-  border-left: solid 2px lightgrey;
-  border-right: solid 2px lightgrey;
+  border-bottom: solid 2px #1890ec;
+  border-left: solid 2px #1890ec;
+  border-right: solid 2px #1890ec;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
   padding: 1.5em 2em;
@@ -80,4 +83,9 @@ form {
   padding: 0;
   text-decoration: none;
   list-style: none;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: grey;
 }
