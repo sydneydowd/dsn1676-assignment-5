@@ -61,6 +61,12 @@ form {
   color: white;
 }
 
+.button:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .list-holder{
   width: 20em;
   border-bottom: solid 2px #1890ec;
